@@ -1,0 +1,121 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+
+\begin{axis}[
+hide x axis,
+hide y axis,
+scaled x ticks=manual:{}{\pgfmathparse{#1}},
+scaled y ticks=manual:{}{\pgfmathparse{#1}},
+tick align=outside,
+x grid style={darkgray176},
+xmajorticks=false,
+xmin=19.35, xmax=209.65,
+xtick style={color=black},
+xticklabels={},
+y grid style={darkgray176},
+ymajorticks=false,
+ymin=-159.8, ymax=-10.2,
+ytick style={color=black},
+yticklabels={}
+]
+\addplot [draw=red, fill=red, mark=*, only marks]
+table{%
+x  y
+28 -84
+201 -84
+116 -17
+115 -153
+115 -52
+85 -120
+};
+\addplot [draw=red, fill=red, mark=*, only marks]
+table{%
+x  y
+28 -84
+201 -84
+116 -17
+115 -153
+115 -52
+85 -120
+};
+\draw (axis cs:28,-84) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{0};
+\draw (axis cs:201,-84) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{1};
+\draw (axis cs:116,-17) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{2};
+\draw (axis cs:115,-153) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{3};
+\draw (axis cs:115,-52) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{4};
+\draw (axis cs:85,-120) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{5};
+\draw[-,draw=gray] (axis cs:201,-84) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:116,-17) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:116,-17) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:115,-153) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:115,-153) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:115,-52) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:116,-17) -- (axis cs:201,-84);
+\draw[-,draw=gray] (axis cs:115,-153) -- (axis cs:201,-84);
+\draw (axis cs:28,-84) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{0};
+\draw (axis cs:201,-84) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{1};
+\draw (axis cs:116,-17) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{2};
+\draw (axis cs:115,-153) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{3};
+\draw (axis cs:115,-52) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{4};
+\draw (axis cs:85,-120) node[
+  scale=0.6,
+  text=black,
+  rotate=0.0
+]{5};
+\draw[-,draw=gray] (axis cs:201,-84) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:116,-17) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:116,-17) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:115,-153) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:115,-153) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:115,-52) -- (axis cs:28,-84);
+\draw[-,draw=gray] (axis cs:116,-17) -- (axis cs:201,-84);
+\draw[-,draw=gray] (axis cs:115,-153) -- (axis cs:201,-84);
+\end{axis}
+
+\end{tikzpicture}
